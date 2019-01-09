@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogDocument DateTime="Wed Mar 28 2018 10:54:56" User="mgnn1266" Toolname="ENC Analyzer">
+	<LogGroup Title="ENC Analyzer&#169; by HSA Systems: Version 2.7.0.18">
+	</LogGroup>
+	<LogGroup Title="AA500004.000, edition: 2 update: 0 product spec: ENC">
+	</LogGroup>
+	<LogGroup Title="Analyzed by: mgnn1266 on Wed Mar 28 2018 10:54:56">
+	</LogGroup>
+	<LogGroup Title="AA500004 : 10 errors, 1 warning, 1 information">
+	</LogGroup>
+	<LogGroup Title="Summary information : 1 information">
+		<LogGroup Title="VS57_INF_SUMMARY : 1 information">
+			<LogEntry Severity="information">
+				<Message>Cell name: AA500004.000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Cell edition: 2</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Update number: 0</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Issue date: 20171218</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Update application date: 20171218</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Producing agency: 1810 (International Hydrographic Organization)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>S-57 edition: 3.1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Product specification: 1 (ENC)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Product specification edition: 2.0</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Lexical level: 1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Lexical level (national language): 1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Depth units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Height units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Positional units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Navigational usage: 5 (Harbour)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Co-ordinate multiplication factor: 10000000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Sounding multiplication factor: 10</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of features: 159</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of primitives: 431</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of nodes: 165</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of edges: 192</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of faces: 73</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of sounding arrays: 1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Compilation scale: 22000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Vertical datum: 17 (Mean high water springs)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Horizontal datum: 2 (WGS 84)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Sounding datum: 10 (Approximate lowest astronomical tide)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>DSID comment: THIS CELL IS CREATED BY IIC TECHNOLOGIES Pvt. Ltd., HYDERABAD, INDIA FOR UK HYDROGRAPHIC OFFICE.</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>DSPM comment: </Message>
+			</LogEntry>
+			<Reference>Logical consistency</Reference>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="ISO 8211">
+	</LogGroup>
+	<LogGroup Title="Record : 10 errors">
+		<LogGroup Title="VS57_ERR_DATAFIELD : 1 error">
+			<LogEntry Severity="error">
+				<Message>Unable to get Data field successfully: Illegal tag SG4D found in record 28 field 3</Message>
+				<Reference>Logical consistency</Reference>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ESCSEQUENCE : 2 errors">
+			<LogEntry Severity="error">
+				<Message>ATTF: escape sequence &#39;   &#39; is invalid for lexical level 1 - expected &#39;-A &#39;</Message>
+				<Reference>S-57 Ed. 3.1 - Annex A A.2.4.1 b; S-58 Ed. 3.0: check 520</Reference>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>NATF: escape sequence &#39;   &#39; is invalid for lexical level 1 - expected &#39;-A &#39;</Message>
+				<Reference>S-57 Ed. 3.1 - Annex A A.2.4.1 b; S-58 Ed. 3.0: check 520</Reference>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_RECORDCOUNT : 2 errors">
+			<LogEntry Severity="error">
+				<Message>The number of geographic records in this cell, 157, does not match the number stated in the DSSI/NOGR subfield, 158</Message>
+				<Reference>S-58 Ed. 3.0: check 28</Reference>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>The number of isolated node records in this cell, 27, does not match the number stated in the DSSI/NOIN subfield, 26</Message>
+				<Reference>S-58 Ed. 3.0: check 28</Reference>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_UNEXPECTED_SF : 3 errors">
+			<LogEntry Severity="error">
+				<Message>Record 495/3: Unexpected subfield FOID. Subfield is not allowed here</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 6.1.1; S-58 Ed. 3.0: check 555</Reference>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>Record 495/4: Unexpected subfield ATTF. Subfield is not allowed here</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 6.1.1; S-58 Ed. 3.0: check 555</Reference>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>Record 495/5: Unexpected subfield FSPT. Subfield is not allowed here</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 6.1.1; S-58 Ed. 3.0: check 555</Reference>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_DUPLICATE_S57NAME : 1 error">
+			<LogEntry Severity="error">
+				<Message>Object name is duplicated</Message>
+				<Reference>S-57 Ed. 3.1: 2.2; S-58 Ed. 3.0: check 3</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA500004]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000134]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>BUISGL</S57ClassToken>
+					<S57ClassDescription>Building, single</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_SPNOCRD : 1 error">
+			<LogEntry Severity="error">
+				<Message>No coordinates for Spatial object</Message>
+				<Reference>Logical consistency</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA500004]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[VI]]></EncObjType>
+						<EncObjId><![CDATA[0000000025]]></EncObjId>
+					</EncObject>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Data dictionary">
+	</LogGroup>
+	<LogGroup Title="Topology">
+	</LogGroup>
+	<LogGroup Title="Group 1">
+	</LogGroup>
+	<LogGroup Title="Referential : 1 warning">
+		<LogGroup Title="VS57_ERR_MORE1PRIM : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>Feature of type point should only reference one spatial primitive</Message>
+				<Reference>S-57 Ed. 3.1: 2.2.1; S-58 Ed, 2.0: check 86</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA500004]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000032]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Relationship">
+	</LogGroup>
+	<LogGroup Title="Redundancy">
+	</LogGroup>
+	<LogGroup Title="Meta hierarchy">
+	</LogGroup>
+	<LogGroup Title="Spatial">
+	</LogGroup>
+	<LogGroup Title="Use of the Object Catalogue">
+	</LogGroup>
+	<LogGroup Title="Attribute">
+	</LogGroup>
+	<LogGroup Title="Depth areas">
+	</LogGroup>
+	<LogGroup Title="Soundings">
+	</LogGroup>
+	<LogGroup Title="Navmarks">
+	</LogGroup>
+	<LogGroup Title="Light sectors">
+	</LogGroup>
+	<LogGroup Title="Custom">
+	</LogGroup>
+</LogDocument>

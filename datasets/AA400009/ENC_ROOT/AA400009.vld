@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogDocument Toolname="7Cs Validator">
+    <LogGroup Title="7Cs Validator &#169; 1.1.0">
+    </LogGroup>
+    <LogGroup Title="AA400009 : Critical 16, Error 3, Warning 7">
+    </LogGroup>
+    <LogGroup Title="Validation Settings">
+        <LogEntry Severity="information">
+            <Message>User: B029572</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Start: Nov 22 2018, 14:39:39 Romance Standard Time</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Preprocessing Time: 0.01 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Time: 0.02 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Tolerance (mm): 0.005</Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Entries : Critical 1, Error 2, Warning 4">
+        <LogGroup Title="InvalidSubfieldValue : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 10, RCID: 1. Invalid value "00000000" for subfield DSID/ISDT. Expected format CCYYMMDD.]]></Message>
+                <SuggestedSolution>Amend subfield value.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, checks 26a, 27, 540a, 1504 and 1510</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7.2.2.1 and 7.3</Reference>
+                <Reference>S-57 Appendix A, ch. 2</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.4, 6.3 and 6.4</Reference>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="RecordCount : Error 2">
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Value 34 for DSSI/NOIN doesn't match actual count of 36.]]></Message>
+                <SuggestedSolution>Amend subfield value.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 28</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7.3.1.2</Reference>
+            </LogEntry>
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Value 37 for DSSI/NOCN doesn't match actual count of 35.]]></Message>
+                <SuggestedSolution>Amend subfield value.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 28</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7.3.1.2</Reference>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="InvalidDDRFieldBase : Warning 4">
+            <LogEntry Severity="warning">
+                <Category>Data Model</Category>
+                <Message><![CDATA[FFPC is not a valid DDR field for a base cell.]]></Message>
+                <SuggestedSolution>Remove invalid DDR field.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 90b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § A.2</Reference>
+            </LogEntry>
+            <LogEntry Severity="warning">
+                <Category>Data Model</Category>
+                <Message><![CDATA[FSPC is not a valid DDR field for a base cell.]]></Message>
+                <SuggestedSolution>Remove invalid DDR field.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 90b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § A.2</Reference>
+            </LogEntry>
+            <LogEntry Severity="warning">
+                <Category>Data Model</Category>
+                <Message><![CDATA[SGCC is not a valid DDR field for a base cell.]]></Message>
+                <SuggestedSolution>Remove invalid DDR field.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 90b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § A.2</Reference>
+            </LogEntry>
+            <LogEntry Severity="warning">
+                <Category>Data Model</Category>
+                <Message><![CDATA[VRPC is not a valid DDR field for a base cell.]]></Message>
+                <SuggestedSolution>Remove invalid DDR field.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 90b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § A.2</Reference>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+    <LogGroup Title="Feature and Geometry Object Entries : Critical 15, Error 1, Warning 3">
+        <LogGroup Title="AtonNotCoincident : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Aid to navigation components do not share the same node.]]></Message>
+                <SuggestedSolution>Ensure that all components of a navigational aid share the same node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 1723</Reference>
+                <Reference>S-57 Use of the Object Catalogue for ENC, Ed. 4.0.0, § 12.1.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000045]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>LIGHTS</S57ClassToken>
+                    <S57ClassDescription>Light</S57ClassDescription>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[FE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000057]]></EncObjId>
+                        </EncObject>
+                        <S57ClassToken>BCNSPP</S57ClassToken>
+                        <S57ClassDescription>Beacon, special purpose/general</S57ClassDescription>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="ConnectedNodeIsIsolated : Critical 2">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Connected node is isolated.]]></Message>
+                <SuggestedSolution>Amend node to be an isolated node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 84a</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000028]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Connected node is isolated.]]></Message>
+                <SuggestedSolution>Amend node to be an isolated node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 84a</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000029]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="CurveBoundaryPoints : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Edge is missing begin or end nodes.]]></Message>
+                <SuggestedSolution>Add beginning or end nodes.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, checks 2 and 25c</Reference>
+                <Reference>S-57, Ed. 3.1, Part 2 § 2.2.1.2</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.4.4</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000031]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="CurveRefMoreThanOnce : Critical 2">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Edge is referenced more than once by this feature.]]></Message>
+                <SuggestedSolution>Remove duplicate reference to the edge.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 82</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000062]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>BUAARE</S57ClassToken>
+                    <S57ClassDescription>Built-up area</S57ClassDescription>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000037]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Edge is referenced more than once by this feature.]]></Message>
+                <SuggestedSolution>Remove duplicate reference to the edge.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 82</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000065]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>FNCLNE</S57ClassToken>
+                    <S57ClassDescription>Fence/wall</S57ClassDescription>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000050]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="DataOrder : Critical 2">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (2D) appears in the dataset after a connected node.]]></Message>
+                <SuggestedSolution>Reorder the data.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000050]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (2D) appears in the dataset after a connected node.]]></Message>
+                <SuggestedSolution>Reorder the data.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000051]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="GeomRefNotConnNode : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 130, RCID: 51. Invalid value 110 for subfield VRPT/NAME. Geometry referenced by edge is not a connected node.]]></Message>
+                <SuggestedSolution>Amend beginning or end nodes to be connected nodes.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 25a</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.4.4</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000051]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="InvalidAttrLabel : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 63. Attribute label code (ATTL) 17000 is not valid.]]></Message>
+                <SuggestedSolution>Amend attribute code.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, checks 33 and 546</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.3.3</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 3.10.1</Reference>
+                <Reference>S-57 Supplement No. 3, ch. 3</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000063]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="IsolatedNodeIsConnected : Critical 2">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Isolated node is connected.]]></Message>
+                <SuggestedSolution>Amend node to be a connected node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 84b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000050]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000051]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Isolated node is connected.]]></Message>
+                <SuggestedSolution>Amend node to be a connected node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 84b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000051]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000051]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="OrphanPoint : Critical 2">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Node is not referenced by a feature or edge.]]></Message>
+                <SuggestedSolution>Remove node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 20b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 2 § 1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000028]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Node is not referenced by a feature or edge.]]></Message>
+                <SuggestedSolution>Remove node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 20b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 2 § 1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000029]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="OuterInnerRingsShareMultPoints : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Topology</Category>
+                <Message><![CDATA[Outer ring shares more than one node with an inner ring.]]></Message>
+                <SuggestedSolution>Amend rings to share at most one node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 14</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7.3</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000062]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>BUAARE</S57ClassToken>
+                    <S57ClassDescription>Built-up area</S57ClassDescription>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VC]]></EncObjType>
+                            <EncObjId><![CDATA[0000000036]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[VC]]></EncObjType>
+                            <EncObjId><![CDATA[0000000037]]></EncObjId>
+                        </EncObject>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="MasterSlaveGeom : Error 1">
+            <LogEntry Severity="error">
+                <Category>Topology</Category>
+                <Message><![CDATA[Master feature does not share the same geometry as, or cover, its slave features]]></Message>
+                <SuggestedSolution>Remove the relationship or ensure that the master and slave features share the same geometry or that the master feature covers its slave features.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, checks 516a, 516b and 516c</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 3.9</Reference>
+                <Reference>S-57 Use of the Object Catalogue for ENC, Ed. 4.0.0, § 12.1.1 and 12.1.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000057]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>BCNSPP</S57ClassToken>
+                    <S57ClassDescription>Beacon, special purpose/general</S57ClassDescription>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[FE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000045]]></EncObjId>
+                        </EncObject>
+                        <S57ClassToken>LIGHTS</S57ClassToken>
+                        <S57ClassDescription>Light</S57ClassDescription>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="NotTruncatedDataLimit : Warning 3">
+            <LogEntry Severity="warning">
+                <Category>Topology</Category>
+                <Message><![CDATA[Feature edge coinciding with data limit does not have USAG = 3 (exterior boundary truncated by the data limit).]]></Message>
+                <SuggestedSolution>Set USAG to 3 (exterior boundary truncated by the data limit).</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 19</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7.3.3</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000005]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[FE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000035]]></EncObjId>
+                        </EncObject>
+                        <S57ClassToken>DEPARE</S57ClassToken>
+                        <S57ClassDescription>Depth area</S57ClassDescription>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+            <LogEntry Severity="warning">
+                <Category>Topology</Category>
+                <Message><![CDATA[Feature edge coinciding with data limit does not have USAG = 3 (exterior boundary truncated by the data limit).]]></Message>
+                <SuggestedSolution>Set USAG to 3 (exterior boundary truncated by the data limit).</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 19</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7.3.3</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000007]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[FE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000035]]></EncObjId>
+                        </EncObject>
+                        <S57ClassToken>DEPARE</S57ClassToken>
+                        <S57ClassDescription>Depth area</S57ClassDescription>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+            <LogEntry Severity="warning">
+                <Category>Topology</Category>
+                <Message><![CDATA[Feature edge coinciding with data limit does not have USAG = 3 (exterior boundary truncated by the data limit).]]></Message>
+                <SuggestedSolution>Set USAG to 3 (exterior boundary truncated by the data limit).</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 19</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7.3.3</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA400009]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000009]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+                <RelatedObject>
+                    <ObjName>
+                        <Cellname><![CDATA[AA400009]]></Cellname>
+                        <EncObject>
+                            <EncObjType><![CDATA[FE]]></EncObjType>
+                            <EncObjId><![CDATA[0000000035]]></EncObjId>
+                        </EncObject>
+                        <S57ClassToken>DEPARE</S57ClassToken>
+                        <S57ClassDescription>Depth area</S57ClassDescription>
+                    </ObjName>
+                </RelatedObject>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+</LogDocument>

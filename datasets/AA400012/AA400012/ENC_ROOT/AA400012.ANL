@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogDocument DateTime="Wed Aug 15 2018 11:56:23" User="B029572" Toolname="ENC Analyzer">
+	<LogGroup Title="ENC Analyzer&#169; by SevenCs: Version 3.5.2.0">
+	</LogGroup>
+	<LogGroup Title="AA400012.000, edition: 2 update: 0 product spec: ENC">
+	</LogGroup>
+	<LogGroup Title="Analyzed by: B029572 on Wed Aug 15 2018 11:56:23">
+	</LogGroup>
+	<LogGroup Title="AA400012 : 57 critical, 17 errors, 11 warnings, 1 information">
+	</LogGroup>
+	<LogGroup Title="Summary information : 1 information">
+		<LogGroup Title="VS57_INF_SUMMARY : 1 information">
+			<LogEntry Severity="information">
+				<Message>Cell name: AA400012.000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Cell edition: 2</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Update number: 0</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Issue date: 20180319</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Update application date: 20180319</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Producing agency: 1810 (International Hydrographic Organization (IHO))</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>S-57 edition: 3.1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Product specification: 1 (ENC)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Product specification edition: 2.0</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Lexical level: 1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Lexical level (national language): 1</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Depth units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Height units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Positional units: 1 (Metres)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Navigational usage: 4 (Approach)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Co-ordinate multiplication factor: 10000000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Sounding multiplication factor: 10</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of features: 336</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of primitives: 647</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of nodes: 212</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of edges: 223</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of faces: 86</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Number of sounding arrays: 126</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Compilation scale: 45000</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Vertical datum: 17 (Mean high water springs)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Horizontal datum: 2 (WGS 84)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>Sounding datum: 10 (Approximate lowest astronomical tide)</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>DSID comment: THIS CELL IS CREATED BY IIC TECHNOLOGIES Pvt. Ltd., HYDERABAD, INDIA FOR UK HYDROGRAPHIC OFFICE.</Message>
+			</LogEntry>
+			<LogEntry Severity="information">
+				<Message>DSPM comment: </Message>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="ISO 8211">
+	</LogGroup>
+	<LogGroup Title="Record : 7 critical">
+		<LogGroup Title="VS57_ERR_SUBFVAL : 1 critical">
+			<LogEntry Severity="critical">
+				<Message>Invalid value 5 for subfield NOCR (expected 0) for record 1 field 3.</Message>
+				<Reference>S-57 Ed. 3.1, 6.3, 6.4; S-58 Ed. 5.0: check 540b</Reference>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_INVALID_FILENAME : 6 critical">
+			<LogEntry Severity="critical">
+				<Message>Filename in NTXTDS, &#34;AA400E.TXT&#34;, referenced by feature is not in accordance with ENC Product Specification: Invalid file name format.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000052]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>ACHARE</S57ClassToken>
+					<S57ClassDescription>Anchorage area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Filename in TXTDSC, &#34;AA400D.TXT&#34;, referenced by feature is not in accordance with ENC Product Specification: Invalid file name format.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000320]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DRGARE</S57ClassToken>
+					<S57ClassDescription>Dredged area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Filename in PICREP, &#34;AA400B.TIF&#34;, referenced by feature is not in accordance with ENC Product Specification: Invalid file name format.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000321]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>BOYSPP</S57ClassToken>
+					<S57ClassDescription>Buoy, special purpose/general</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Filename in PICREP, &#34;AABRIDGE.PNG&#34;, referenced by feature is not in accordance with ENC Product Specification: Can&#39;t reference a file of this type here.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000323]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>BUISGL</S57ClassToken>
+					<S57ClassDescription>Building, single</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Filename in TXTDSC, &#34;AABRIDGE&#34;, referenced by feature is not in accordance with ENC Product Specification: Invalid file name format.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000325]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>BRIDGE</S57ClassToken>
+					<S57ClassDescription>Bridge</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Filename in PICREP, &#34;12BRIDGE&#34;, referenced by feature is not in accordance with ENC Product Specification: Invalid file name format.</Message>
+				<Reference>S-57 Ed. 3.1: 5.6.1, 5.6.2 and 5.6.3; Appendix B.1 Ed. 2.0: 5.6 - Annex A, 2.3 and 4.8.20; S-58 Ed. 5.0: checks 531, 1017 and 1766</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000325]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>BRIDGE</S57ClassToken>
+					<S57ClassDescription>Bridge</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Data dictionary : 33 critical">
+		<LogGroup Title="VS57_ERR_ILLOBJ : 13 critical">
+			<LogEntry Severity="critical">
+				<Message>Object class code 131 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000019]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 311 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000020]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 307 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000021]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 500 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000023]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 115 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000157]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 70 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000158]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 24 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000159]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 501 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000160]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 502 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000175]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 504 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000176]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 503 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000177]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 402 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000337]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object class code 17001 does not exist for the ENC product specification.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-58 Ed. 5.0: check 504</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000500]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_OBJ_CODE : 13 critical">
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000019]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000020]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000021]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000023]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000157]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000158]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000159]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000160]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000175]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000176]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000177]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000337]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Object code, Unknown class, is invalid.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 545</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000500]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_VAL_ATTR : 7 critical">
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object HRBARE.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000077]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>HRBARE</S57ClassToken>
+					<S57ClassDescription>Harbour area (administrative)</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object UNSARE.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000328]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>UNSARE</S57ClassToken>
+					<S57ClassDescription>Unsurveyed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object HULKES.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000329]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>HULKES</S57ClassToken>
+					<S57ClassDescription>Hulk</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, PEREND, is invalid for object FLODOC.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000330]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>FLODOC</S57ClassToken>
+					<S57ClassDescription>Floating dock</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object LNDARE.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000331]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDARE</S57ClassToken>
+					<S57ClassDescription>Land area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object DRGARE.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000332]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DRGARE</S57ClassToken>
+					<S57ClassDescription>Dredged area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attribute code, DATEND, is invalid for object DEPARE.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.2; S-57 Ed. 3.1 Supplement No 2; S-58 Ed. 5.0: check 547</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000333]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DEPARE</S57ClassToken>
+					<S57ClassDescription>Depth area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Topology : 1 critical, 2 warnings">
+		<LogGroup Title="VS57_ERR_CONNODE : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>Node could possibly be connected to related edge.</Message>
+				<Reference>Logical consistency</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000158]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[VC]]></EncObjType>
+							<EncObjId><![CDATA[0000000014]]></EncObjId>
+						</EncObject>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[VE]]></EncObjType>
+							<EncObjId><![CDATA[0000000053]]></EncObjId>
+						</EncObject>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ORPHANPRIM : 1 critical">
+			<LogEntry Severity="critical">
+				<Message>Edge primitive.  Primitive is not referenced by any object.</Message>
+				<Reference>S-57 Ed. 3.1, Part 3: 5.1.1 and Sup. 2 3.3.1; S-58 Ed. 5.0: check 21</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[VE]]></EncObjType>
+						<EncObjId><![CDATA[0000000024]]></EncObjId>
+					</EncObject>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_VERTEX_DENSITY : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>Edge contains one or more vertices whose distance from neighbouring vertices is less than 0.3mm at compilation scale.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0, 3.8: S-58 Ed. 5.0: check 571</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<PosLat><![CDATA[32 30.3365 S]]></PosLat>
+					<PosLon><![CDATA[060 57.6159 E]]></PosLon>
+					<EncObject>
+						<EncObjType><![CDATA[VE]]></EncObjType>
+						<EncObjId><![CDATA[0000000054]]></EncObjId>
+					</EncObject>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Group 1">
+	</LogGroup>
+	<LogGroup Title="Referential : 1 critical">
+		<LogGroup Title="VS57_ERR_FTNOSP : 1 critical">
+			<LogEntry Severity="critical">
+				<Message>No spatial component for feature.</Message>
+				<Reference>S-57 Ed. 3.1, Part 3: 4.7 and 5.1.4.4; S-58 Ed. 5.0: check 12</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000337]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Relationship : 3 errors, 1 warning">
+		<LogGroup Title="VS57_ERR_PEERNOCOLLECTION : 3 errors">
+			<LogEntry Severity="error">
+				<Message>Peer feature must have C_AGGR or C_ASSO as it parent.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0, 3.9; S-58 Ed. 5.0: check 96</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000175]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000337]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>Unknown class</S57ClassToken>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>Peer feature must have C_AGGR or C_ASSO as it parent.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0, 3.9; S-58 Ed. 5.0: check 96</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000176]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000337]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>Unknown class</S57ClassToken>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>Peer feature must have C_AGGR or C_ASSO as it parent.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0, 3.9; S-58 Ed. 5.0: check 96</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000177]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>Unknown class</S57ClassToken>
+					<S57ClassDescription></S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000337]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>Unknown class</S57ClassToken>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_REL_17 : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>A BUISGL or LNDMRK, that has a LIGHTS (not having one of 6,8,9 for CATLIT) as slave, should have 33 [light support] for FUNCTN.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 12.3.2 and S-52; S-58 Ed. 5.0: check 1781</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000335]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDMRK</S57ClassToken>
+					<S57ClassDescription>Landmark</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000338]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>LIGHTS</S57ClassToken>
+						<S57ClassDescription>Light</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Redundancy : 2 warnings">
+		<LogGroup Title="VS57_ERR_FEAT_CHAINED : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>Linear features should be chained together at node.</Message>
+				<Reference>Logical consistency; S-58 Ed. 5.0: check 40</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[VC]]></EncObjType>
+						<EncObjId><![CDATA[0000000012]]></EncObjId>
+					</EncObject>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000157]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>Unknown class</S57ClassToken>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000159]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>Unknown class</S57ClassToken>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[VE]]></EncObjType>
+							<EncObjId><![CDATA[0000000201]]></EncObjId>
+						</EncObject>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[VE]]></EncObjType>
+							<EncObjId><![CDATA[0000000203]]></EncObjId>
+						</EncObject>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_REDUND_NODE : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>Node is duplicated or in close vicinity of another.</Message>
+				<Reference>S-58 Ed. 5.0: check 83</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[VC]]></EncObjType>
+						<EncObjId><![CDATA[0000000087]]></EncObjId>
+					</EncObject>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[VC]]></EncObjType>
+							<EncObjId><![CDATA[0000000162]]></EncObjId>
+						</EncObject>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Meta hierarchy : 1 error">
+		<LogGroup Title="VS57_MET_11 : 1 error">
+			<LogEntry Severity="error">
+				<Message>Where SCAMIN has been defined, it must have a smaller scale value than the compilation scale of the data.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 2.2.6 and 2.2.7; S-58 Ed. 5.0: checks 1550 and 1553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000336]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>SBDARE</S57ClassToken>
+					<S57ClassDescription>Seabed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Spatial : 1 warning">
+		<LogGroup Title="VS57_SPT_49 : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>If the feature is a M_QUAL and the value of CATZOC is 6 [zone of confidence U (unassessed)], then it should not overlap a DEPCNT of line geometry.</Message>
+				<Reference>Logical consistency</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<PosLat><![CDATA[32 31.2069 S]]></PosLat>
+					<PosLon><![CDATA[060 56.2392 E]]></PosLon>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000085]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>M_QUAL</S57ClassToken>
+					<S57ClassDescription>Quality of data</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000002]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000003]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000004]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000005]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000006]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000007]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000008]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000009]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000010]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000011]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000013]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000014]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000015]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000018]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000110]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000111]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000112]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000115]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000124]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000142]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000143]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000144]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000145]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000146]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000162]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000168]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000169]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000170]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000171]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000173]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000205]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000208]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000211]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000212]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000213]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000221]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000223]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000250]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000284]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000285]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000286]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000287]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000297]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DEPCNT</S57ClassToken>
+						<S57ClassDescription>Depth contour</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Use of the Object Catalogue : 5 warnings">
+		<LogGroup Title="VS57_UOC_130 : 4 warnings">
+			<LogEntry Severity="warning">
+				<Message>Where a WRECKS or OBSTRN area includes other hydrographic point features, the values of EXPSOU, QUASOU, SOUACC, TECSOU, VALSOU and WATLEV should be identical to the values of the shallowest point feature.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 6.3.2; S-58 Ed. 5.0: check 1670</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000044]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>OBSTRN</S57ClassToken>
+					<S57ClassDescription>Obstruction</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000106]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="warning">
+				<Message>Where a WRECKS or OBSTRN area includes other hydrographic point features, the values of EXPSOU, QUASOU, SOUACC, TECSOU, VALSOU and WATLEV should be identical to the values of the shallowest point feature.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 6.3.2; S-58 Ed. 5.0: check 1670</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000049]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>OBSTRN</S57ClassToken>
+					<S57ClassDescription>Obstruction</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000152]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000153]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000154]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="warning">
+				<Message>Where a WRECKS or OBSTRN area includes other hydrographic point features, the values of EXPSOU, QUASOU, SOUACC, TECSOU, VALSOU and WATLEV should be identical to the values of the shallowest point feature.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 6.3.2; S-58 Ed. 5.0: check 1670</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000060]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>OBSTRN</S57ClassToken>
+					<S57ClassDescription>Obstruction</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000098]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000099]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="warning">
+				<Message>Where a WRECKS or OBSTRN area includes other hydrographic point features, the values of EXPSOU, QUASOU, SOUACC, TECSOU, VALSOU and WATLEV should be identical to the values of the shallowest point feature.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 6.3.2; S-58 Ed. 5.0: check 1670</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000073]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>OBSTRN</S57ClassToken>
+					<S57ClassDescription>Obstruction</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000155]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>UWTROC</S57ClassToken>
+						<S57ClassDescription>Underwater rock / awash rock</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_UOC_27J : 1 warning">
+			<LogEntry Severity="warning">
+				<Message>If the feature is a WRECKS and the value of VALSOU is greater than 0, then CATWRK should not have a known value or CATWRK should contain one of the value(s) 1,2,3.</Message>
+				<Reference>S-57 Appendix B.1 - Annex A Ed. 4.0.0: 6.2.1; S-58 Ed. 5.0: check 1663</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000294]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>WRECKS</S57ClassToken>
+					<S57ClassDescription>Wreck</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Attribute : 15 critical, 13 errors">
+		<LogGroup Title="VS57_ATT_45 : 2 critical">
+			<LogEntry Severity="critical">
+				<Message>If the feature is a GATCON and it overlaps a DEPARE of any geometry or it overlaps a DRGARE of any geometry, then it must have the attribute HORCLR.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.5.2; S-58 Ed. 5.0: check 507</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<PosLat><![CDATA[32 30.1225 S]]></PosLat>
+					<PosLon><![CDATA[060 55.7758 E]]></PosLon>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000117]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>GATCON</S57ClassToken>
+					<S57ClassDescription>Gate</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000332]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DRGARE</S57ClassToken>
+						<S57ClassDescription>Dredged area</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>If the feature is a GATCON and it overlaps a DEPARE of any geometry or it overlaps a DRGARE of any geometry, then it must have the attribute HORCLR.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.5.2; S-58 Ed. 5.0: check 507</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<PosLat><![CDATA[32 30.1774 S]]></PosLat>
+					<PosLon><![CDATA[060 55.8467 E]]></PosLon>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000200]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>GATCON</S57ClassToken>
+					<S57ClassDescription>Gate</S57ClassDescription>
+				</ObjName>
+				<RelatedObject>
+					<ObjName>
+						<Cellname><![CDATA[AA400012]]></Cellname>
+						<EncObject>
+							<EncObjType><![CDATA[FE]]></EncObjType>
+							<EncObjId><![CDATA[0000000332]]></EncObjId>
+						</EncObject>
+						<S57ClassToken>DRGARE</S57ClassToken>
+						<S57ClassDescription>Dredged area</S57ClassDescription>
+					</ObjName>
+				</RelatedObject>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ATT_67 : 7 critical">
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000326]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>PONTON</S57ClassToken>
+					<S57ClassDescription>Pontoon</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000328]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>UNSARE</S57ClassToken>
+					<S57ClassDescription>Unsurveyed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000329]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>HULKES</S57ClassToken>
+					<S57ClassDescription>Hulk</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000330]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>FLODOC</S57ClassToken>
+					<S57ClassDescription>Floating dock</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000331]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDARE</S57ClassToken>
+					<S57ClassDescription>Land area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000332]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DRGARE</S57ClassToken>
+					<S57ClassDescription>Dredged area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>Attributes DATSTA, DATEND, PERSTA or PEREND are encoded on Group1 objects.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.10.1 and Logical consistency; S-58 Ed. 5.0: check 553</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000333]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DEPARE</S57ClassToken>
+					<S57ClassDescription>Depth area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ATT_71 : 2 errors">
+			<LogEntry Severity="error">
+				<Message>If NTXTDS has a known value, then TXTDSC must have a known value.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.11.1; S-58 Ed. 5.0: check 574</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000052]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>ACHARE</S57ClassToken>
+					<S57ClassDescription>Anchorage area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>If NTXTDS has a known value, then TXTDSC must have a known value.</Message>
+				<Reference>S-57 Appendix B.1 Ed. 2.0: 3.11.1; S-58 Ed. 5.0: check 574</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000327]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>CBLARE</S57ClassToken>
+					<S57ClassDescription>Cable area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ATT_73 : 7 errors">
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000326]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>PONTON</S57ClassToken>
+					<S57ClassDescription>Pontoon</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000328]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>UNSARE</S57ClassToken>
+					<S57ClassDescription>Unsurveyed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000329]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>HULKES</S57ClassToken>
+					<S57ClassDescription>Hulk</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000330]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>FLODOC</S57ClassToken>
+					<S57ClassDescription>Floating dock</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000331]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDARE</S57ClassToken>
+					<S57ClassDescription>Land area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000332]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DRGARE</S57ClassToken>
+					<S57ClassDescription>Dredged area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>PERSTA must not equal PEREND.</Message>
+				<Reference>S-58 Ed. 5.0: check 568</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000333]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>DEPARE</S57ClassToken>
+					<S57ClassDescription>Depth area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ATTS_FLOAT : 1 error">
+			<LogEntry Severity="error">
+				<Message>The value &#39;30,10&#39; is not a floating point number.</Message>
+				<Reference>Logical consistency</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000335]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDMRK</S57ClassToken>
+					<S57ClassDescription>Landmark</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ATTS_INT : 1 error">
+			<LogEntry Severity="error">
+				<Message>The value &#39;4000,5000&#39; is not an integer.</Message>
+				<Reference>Logical consistency</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000336]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>SBDARE</S57ClassToken>
+					<S57ClassDescription>Seabed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ATTS_NUMVALS : 3 critical">
+			<LogEntry Severity="critical">
+				<Message>The value &#39;5,4&#39; for attribute CATWRK must only have one value.</Message>
+				<Reference>S-58 Ed. 5.0: check 1679</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000294]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>WRECKS</S57ClassToken>
+					<S57ClassDescription>Wreck</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>The value &#39;30,10&#39; for attribute ELEVAT must only have one value.</Message>
+				<Reference>S-58 Ed. 5.0: check 1679</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000335]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDMRK</S57ClassToken>
+					<S57ClassDescription>Landmark</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>The value &#39;4000,5000&#39; for attribute SCAMIN must only have one value.</Message>
+				<Reference>S-58 Ed. 5.0: check 1679</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000336]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>SBDARE</S57ClassToken>
+					<S57ClassDescription>Seabed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_ATT_FORMAT : 3 critical">
+			<LogEntry Severity="critical">
+				<Message>The value of &#39;30,10&#39; for attribute ELEVAT is invalid. Expected format xxx.x.</Message>
+				<Reference>S-57 Appendix A, Ed. 3.1; S-58 Ed. 5.0: checks 26b, 542 and 557</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000335]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDMRK</S57ClassToken>
+					<S57ClassDescription>Landmark</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>The value of &#39;4000,5000&#39; for attribute SCAMIN is invalid. Expected format unsigned integer.</Message>
+				<Reference>S-57 Appendix A, Ed. 3.1; S-58 Ed. 5.0: checks 26b, 542 and 557</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000336]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>SBDARE</S57ClassToken>
+					<S57ClassDescription>Seabed area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="critical">
+				<Message>The value of &#39;(1),(2)&#39; for attribute SIGGRP is invalid. Expected format (c)(c)....</Message>
+				<Reference>S-57 Appendix A, Ed. 3.1; S-58 Ed. 5.0: checks 26b, 542 and 557</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000338]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LIGHTS</S57ClassToken>
+					<S57ClassDescription>Light</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+		<LogGroup Title="VS57_ERR_OBJATTR_VAL : 2 errors">
+			<LogEntry Severity="error">
+				<Message>FLODOC should not have value 5 [periodically/intermittent] for STATUS.</Message>
+				<Reference>Logical consistency; S-58 Ed. 5.0: check 2000</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000330]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>FLODOC</S57ClassToken>
+					<S57ClassDescription>Floating dock</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+			<LogEntry Severity="error">
+				<Message>LNDARE should not have value 5 [periodically/intermittent] for STATUS.</Message>
+				<Reference>Logical consistency; S-58 Ed. 5.0: check 2000</Reference>
+				<ObjName>
+					<Cellname><![CDATA[AA400012]]></Cellname>
+					<EncObject>
+						<EncObjType><![CDATA[FE]]></EncObjType>
+						<EncObjId><![CDATA[0000000331]]></EncObjId>
+					</EncObject>
+					<S57ClassToken>LNDARE</S57ClassToken>
+					<S57ClassDescription>Land area</S57ClassDescription>
+				</ObjName>
+			</LogEntry>
+		</LogGroup>
+	</LogGroup>
+	<LogGroup Title="Depth areas">
+	</LogGroup>
+	<LogGroup Title="Soundings">
+	</LogGroup>
+	<LogGroup Title="Navmarks">
+	</LogGroup>
+	<LogGroup Title="Light sectors">
+	</LogGroup>
+	<LogGroup Title="Custom">
+	</LogGroup>
+</LogDocument>

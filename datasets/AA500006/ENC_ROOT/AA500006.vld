@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogDocument Toolname="7Cs Validator">
+    <LogGroup Title="7Cs Validator &#169; 1.1.0">
+    </LogGroup>
+    <LogGroup Title="AA500006 : Critical 10, Error 5, Warning 1">
+    </LogGroup>
+    <LogGroup Title="Validation Settings">
+        <LogEntry Severity="information">
+            <Message>User: B029572</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Start: Dec 03 2018, 13:49:26 Romance Standard Time</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Preprocessing Time: 0.01 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Time: 0.00 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Tolerance (mm): 0.005</Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Entries : Error 2">
+        <LogGroup Title="RecordCount : Error 2">
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Value 10 for DSSI/NOGR doesn't match actual count of 11.]]></Message>
+                <SuggestedSolution>Amend subfield value.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 28</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7.3.1.2</Reference>
+            </LogEntry>
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Value 4 for DSSI/NOIN doesn't match actual count of 5.]]></Message>
+                <SuggestedSolution>Amend subfield value.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 28</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 7.3.1.2</Reference>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+    <LogGroup Title="Feature and Geometry Object Entries : Critical 10, Error 3, Warning 1">
+        <LogGroup Title="EndNodeReferencedFirst : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 120, RCID: 1126821557. Subfield VRPT/TOPI references End Node before Beginning Node.]]></Message>
+                <SuggestedSolution>Reference Beginning Node first.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 22</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 5.1.3.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000043]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="NoFeatureGeom : Critical 3">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Feature has no geometry.]]></Message>
+                <SuggestedSolution>Remove feature or assign a geometry to it.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 12</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000053]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>PILPNT</S57ClassToken>
+                    <S57ClassDescription>Pile</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Feature has no geometry.]]></Message>
+                <SuggestedSolution>Remove feature or assign a geometry to it.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 12</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000057]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>SOUNDG</S57ClassToken>
+                    <S57ClassDescription>Sounding</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Feature has no geometry.]]></Message>
+                <SuggestedSolution>Remove feature or assign a geometry to it.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 12</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 4.7</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000100]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>SOUNDG</S57ClassToken>
+                    <S57ClassDescription>Sounding</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="NoFieldsAfterInsertModify : Critical 4">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 57. Insert or Modify update record contains no further fields.]]></Message>
+                <SuggestedSolution>Add the additional required fields to update record.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 36b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.4.2.2 and 8.4.3.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000057]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>SOUNDG</S57ClassToken>
+                    <S57ClassDescription>Sounding</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 100. Insert or Modify update record contains no further fields.]]></Message>
+                <SuggestedSolution>Add the additional required fields to update record.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 36b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.4.2.2 and 8.4.3.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000100]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>SOUNDG</S57ClassToken>
+                    <S57ClassDescription>Sounding</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 110, RCID: 31. Insert or Modify update record contains no further fields.]]></Message>
+                <SuggestedSolution>Add the additional required fields to update record.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 36b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.4.2.2 and 8.4.3.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000031]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 110, RCID: 100. Insert or Modify update record contains no further fields.]]></Message>
+                <SuggestedSolution>Add the additional required fields to update record.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 36b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.4.2.2 and 8.4.3.2</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000100]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="OrphanCurve : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Edge is not referenced by a feature.]]></Message>
+                <SuggestedSolution>Remove edge.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 20b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 2 § 1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000057]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="OrphanPoint : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[Node is not referenced by a feature or edge.]]></Message>
+                <SuggestedSolution>Remove node.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 20b</Reference>
+                <Reference>S-57, Ed. 3.1, Part 2 § 1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000031]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="ImportError : Error 3">
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 57. Missing field. Expected: FOID.]]></Message>
+                <SuggestedSolution></SuggestedSolution>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000057]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 100. Missing field. Expected: FOID.]]></Message>
+                <SuggestedSolution></SuggestedSolution>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000100]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="error">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 110, RCID: 100. Missing coordinates.]]></Message>
+                <SuggestedSolution></SuggestedSolution>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000100]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="VertexDensity : Warning 1">
+            <LogEntry Severity="warning">
+                <Category>Topology</Category>
+                <Message><![CDATA[Vertex density exceeds allowable tolerance of 0.3 mm at compilation scale.]]></Message>
+                <SuggestedSolution>Generalise edge.</SuggestedSolution>
+                <Reference>S-58, Ed. 6.1.0, check 571</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 3.8</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500006]]></Cellname>
+                    <PosLat><![CDATA[32 29.6197 S]]></PosLat>
+                    <PosLon><![CDATA[060 58.0000 E]]></PosLon>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000029]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+</LogDocument>
