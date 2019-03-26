@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogDocument Toolname="7Cs Analyzer">
+    <LogGroup Title="7Cs Analyzer &#169; 4.0.0">
+    </LogGroup>
+    <LogGroup Title="AA500008 : Critical 2, Error 0, Warning 2">
+    </LogGroup>
+    <LogGroup Title="Validation Parameters">
+        <LogEntry Severity="information">
+            <Message>User: B029572</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Start: Mar 26 2019, 17:06:55 Romance Standard Time</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Preprocessing Time: 0.02 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Time: 0.02 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Tolerance (mm): 0.125</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Includes IC-ENC Checks: no</Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Metadata">
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Name: AA500008]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Edition: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Update No: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Exchange Purpose: 2 (Revision)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Intended Usage: 5]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Update Application Date:         ]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Issue Date: 20180424]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Edition Number of S-57: 03.1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Product Specification: 1 (IHO.ENC)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Product Specification Edition: 2.0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Application Profile: 2 (Update)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Producing Agency: 1810 (AA - International Hydrographic Organization (IHO))]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[DSID Comment: ]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[ATTF Lexical Level: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[NATF Lexical Level: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Meta Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Cartographic Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Geo Records: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Collection Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Isolated Node Records: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Connected Node Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Edge Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Face Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Horizontal Datum: 2 (WGS 84)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Vertical Datum: 10 (Approximate lowest astronomical tide)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Sounding Datum: 17 (Mean high water springs)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Depth: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Height: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Positional Accuracy: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Coordinate Units: 1 (lat/long)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Coordinate Multiplication Factor: 10000000]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Sounding Multiplication Factor: 10]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[DSPM Comment: ]]></Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Entries : Warning 2">
+        <LogGroup Title="SdatNotLowWater : Warning 1">
+            <LogEntry Severity="warning">
+                <Category>Bathymetry</Category>
+                <Message><![CDATA[DSPM/SDAT does not refer to a low water or local datum.]]></Message>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="VdatNotHighWater : Warning 1">
+            <LogEntry Severity="warning">
+                <Category>Bathymetry</Category>
+                <Message><![CDATA[DSPM/VDAT does not refer to a high water or local datum.]]></Message>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+    <LogGroup Title="Feature and Geometry Entries : Critical 2">
+        <LogGroup Title="DataOrder : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (2D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[1133530765]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="RelatedObjDoesntExist : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 63. Field FSPT: related object (110,1133530765) does not exist.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, checks 34, 98 and 1777</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.3.4</Reference>
+                <Reference>S-57 Use of the Object Catalogue for ENC, Ed. 4.1.0, § 15</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000063]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>OBSTRN</S57ClassToken>
+                    <S57ClassDescription>Obstruction</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+</LogDocument>
