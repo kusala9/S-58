@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogDocument Toolname="7Cs Analyzer">
+    <LogGroup Title="7Cs Analyzer &#169; 4.0.0">
+    </LogGroup>
+    <LogGroup Title="Note: This log only contains validation results related to parsing ISO 8211 records.">
+    </LogGroup>
+    <LogGroup Title="AA500008 : Critical 51, Error 0, Warning 0">
+    </LogGroup>
+    <LogGroup Title="Validation Parameters">
+        <LogEntry Severity="information">
+            <Message>User: B029572</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Start: Mar 26 2019, 17:06:46 Romance Standard Time</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Preprocessing Time: 0.00 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Validation Time: 0.00 seconds</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Tolerance (mm): 0.125</Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message>Includes IC-ENC Checks: no</Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Metadata">
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Name: AA500008]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Edition: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Dataset Update No: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Exchange Purpose: 1 (New)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Intended Usage: 5]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Update Application Date: 20180424]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Issue Date: 20180424]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Edition Number of S-57: 03.1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Product Specification: 1 (IHO.ENC)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Product Specification Edition: 2.0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Application Profile: 1 (Base)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Producing Agency: 1810 (AA - International Hydrographic Organization (IHO))]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[DSID Comment: THIS CELL IS CREATED BY IIC TECHNOLOGIES Pvt. Ltd., HYDERABAD, INDIA FOR UK HYDROGRAPHIC OFFICE.]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[ATTF Lexical Level: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[NATF Lexical Level: 1]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Meta Records: 3]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Cartographic Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Geo Records: 35]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Collection Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Isolated Node Records: 21]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Connected Node Records: 11]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Edge Records: 15]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Number of Face Records: 0]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Horizontal Datum: 2 (WGS 84)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Vertical Datum: 10 (Approximate lowest astronomical tide)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Sounding Datum: 17 (Mean high water springs)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Depth: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Height: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Units of Positional Accuracy: 1 (m)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Coordinate Units: 1 (lat/long)]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Coordinate Multiplication Factor: 10000000]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[Sounding Multiplication Factor: 10]]></Message>
+        </LogEntry>
+        <LogEntry Severity="information">
+            <Message><![CDATA[DSPM Comment: ]]></Message>
+        </LogEntry>
+    </LogGroup>
+    <LogGroup Title="Dataset Entries : No Errors">
+    </LogGroup>
+    <LogGroup Title="Feature and Geometry Entries : Critical 51">
+        <LogGroup Title="DataOrder : Critical 50">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a meta feature appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000014]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>M_COVR</S57ClassToken>
+                    <S57ClassDescription>Coverage</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a meta feature appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000015]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>M_NSYS</S57ClassToken>
+                    <S57ClassDescription>Navigational system of marks</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a meta feature appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000016]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>M_QUAL</S57ClassToken>
+                    <S57ClassDescription>Quality of data</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000013]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000014]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000015]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000016]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000017]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000018]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000019]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000020]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000021]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000022]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000023]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000024]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000025]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000026]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000027]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000028]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000029]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000030]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000031]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000032]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an isolated node (3D) appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VI]]></EncObjType>
+                        <EncObjId><![CDATA[0000000033]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000001]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000002]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000003]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000004]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000005]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000006]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000007]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000008]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000009]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000010]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: a connected node appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VC]]></EncObjType>
+                        <EncObjId><![CDATA[0000000011]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000022]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000023]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000024]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000025]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000026]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000027]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000028]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000029]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000030]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000031]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000032]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000033]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000034]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000035]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[The data order is not encoded in the correct order: an edge appears in the dataset after a geo feature.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, check 555</Reference>
+                <Reference>S-57 ENC Product Specification, Ed. 2.0, § 6.1.1</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[VE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000036]]></EncObjId>
+                    </EncObject>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+        <LogGroup Title="RelatedObjDoesntExist : Critical 1">
+            <LogEntry Severity="critical">
+                <Category>Data Model</Category>
+                <Message><![CDATA[RCNM: 100, RCID: 62. Field FSPT: related object (110,33) does not exist.]]></Message>
+                <Reference>S-58, Ed. 6.1.0, checks 34, 98 and 1777</Reference>
+                <Reference>S-57, Ed. 3.1, Part 3 § 8.3.4</Reference>
+                <Reference>S-57 Use of the Object Catalogue for ENC, Ed. 4.1.0, § 15</Reference>
+                <ObjName>
+                    <Cellname><![CDATA[AA500008]]></Cellname>
+                    <EncObject>
+                        <EncObjType><![CDATA[FE]]></EncObjType>
+                        <EncObjId><![CDATA[0000000062]]></EncObjId>
+                    </EncObject>
+                    <S57ClassToken>SOUNDG</S57ClassToken>
+                    <S57ClassDescription>Sounding</S57ClassDescription>
+                </ObjName>
+            </LogEntry>
+        </LogGroup>
+    </LogGroup>
+</LogDocument>
